@@ -31,3 +31,9 @@ Sử dụng `keras.models.load_model('path/to/the/model/[model name].keras', com
 
 ## Deploy
 
+https://gointerntest-dogs-vs-cats.streamlit.app/
+Sử dụng streamlit, chạy streamlit run app.py.
+
+### Model
+
+3 model được lưu trong thư mục `.\model`
