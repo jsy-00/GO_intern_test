@@ -1,11 +1,12 @@
 # Excercise 1: Image Classification
 
-## Cài đặt
+## Develop
+### Cài đặt
 
 - Tải notebook GO_InternTest.ipynb và upload lên Google Colab hoặc Kaggle.
 - Chọn môi trường GPU để có thể huấn luyện và sử dụng mô hình để phân loại ảnh nhanh nhất.
 
-## Huấn luyện
+### Huấn luyện
 
 - Chạy các đoạn code nằm trong các mục:
 
@@ -18,7 +19,7 @@
 
 - Có thể vào file explorer của Google Colab hoặc Kaggle để tải các checkpoint.
 
-## Inference
+### Inference
 
 Sử dụng `keras.models.load_model('path/to/the/model/[model name].keras', compile=False, safe_mode=True)` để load mô hình lưu trong các thư mục trên. Sử dụng đoạn code dưới đây để xử lý 1 ảnh và đưa cho model phân loại :
 
@@ -27,4 +28,6 @@ Sử dụng `keras.models.load_model('path/to/the/model/[model name].keras', com
     img = tf.image.resize(img, (224, 224))
     img = tf.expand_dims(img, 0)
     print(f'Prediction: {"cat" if model.predict(img).argmax(axis=-1)[0] == 0 else "dog"}')
+
+## Deploy
 
