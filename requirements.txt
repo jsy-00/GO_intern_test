@@ -1,5 +1,5 @@
-streamlit==1.15.0  # Streamlit의 최신 안정화 버전
-tensorflow==2.10.0  # TensorFlow 버전 (프로젝트에 맞는 버전으로 변경 가능)
-pillow==9.1.1  # Pillow 버전 (이미지 처리 라이브러리)
-numpy==1.21.5  # Numpy 버전 (수치 계산 라이브러리)
-opencv-python==4.6.0.66  # OpenCV 버전 (GUI 환경이 필요한 경우)
+streamlit==1.40.1  # 최신 안정화 버전
+tensorflow==2.16.0  # 호환되는 TensorFlow 버전
+opencv-python==4.6.0.66  # OpenCV 버전
+pillow==9.1.1  # Pillow 버전
+numpy==1.21.5  # Numpy 버전
